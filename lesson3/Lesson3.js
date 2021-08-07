@@ -132,3 +132,4 @@ console.log(Object.keys(obj));
 
 let persons = {name: 'Sasha', age: 15, model: 'Yaguar', phone: 'Samsung', city: 'Kiev'};
 console.log(Object.values(persons));
+
