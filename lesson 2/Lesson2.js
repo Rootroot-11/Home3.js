@@ -30,13 +30,13 @@ document.write(massive3[1][2]);
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 for (let i = 0; i < 10; i++ ){
     document.write(`<div>abcdefg</div>`)
-};
+}
 // document.write(`<br>`);
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
 for (let i = 0; i < 10; i++ ) {
     document.write(`<div>10 блоків с довільним текстом ${i}</div>`)
-};
+}
 
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
@@ -55,7 +55,7 @@ let massiveNum = [24, 22, 1, 2.222221, 76, 999, 12, 9, 88, 66];
 for ( u = 0 ; u < 10 ; u++){
     console.log(massiveNum[u])
 
-};
+}
 
 // / - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
 let massiveStr = ["Serhii", "Oleh", 'qwerawe', '677u4g', "823hwue", "Serhii", "Oleh", "qwerawe", "677u4g", "823hwue"];
@@ -153,5 +153,7 @@ for (let u = 0; u < 100; u++){
         document.write(`step : ${u} <br>`);
     }
 };
+
+
 
 
