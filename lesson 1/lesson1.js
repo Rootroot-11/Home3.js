@@ -154,7 +154,7 @@ let senumber = '10';
 let tnumber = '-999'
 
 let fnumber = '123'
-let pi = '3.14'
+let pi = Match.PI;
 
 let finumber = '2.7'
 let sinumber = '16'
@@ -225,9 +225,9 @@ fnumber = '432';
 console.log (fnumber);
 document.write (fnumber);
 
-const PI = 3.14;
-document.write(pi);
-alert(pi);
+const PI = Match.PI;
+document.write(Math.PI);
+alert(Match.PI);
 
 console.log (finumber);
 document.write(finumber);
@@ -302,12 +302,12 @@ console.log(typeof c);
 
 console.log(5 < 6);
 console.log(5 > 6);
-console.log(5 == 6);
+console.log(5 === 6);
 console.log(5 !== 6);
-console.log(10 || 10);
-console.log(10 == 10);
+console.log(10 === 10);
+console.log(10 === 10);
 console.log(10 < 10);
 console.log(10 > 10);
 console.log(10 !== 10);
 console.log(123 === '123');
-console.log(123 == '123');
+console.log(123 === '123');
